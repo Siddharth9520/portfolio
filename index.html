@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siddharth Kumbhar | AI & ML Portfolio</title>
+    <meta
+      name="description"
+      content="Production-level AI & ML developer portfolio of Siddharth Kumbhar featuring projects, skills, and achievements."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <header class="header">
+      <div class="brand">SK</div>
+      <nav class="nav" id="mainNav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#learning" class="nav-link">Learning</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </header>
+
+    <main class="container">
+      <section class="hero reveal" id="home" aria-labelledby="heroTitle">
+        <div class="glass card hero-content">
+          <p class="eyebrow">AI &amp; ML DEVELOPER PORTFOLIO</p>
+          <h1 id="heroTitle">Siddharth Hanmant Kumbhar</h1>
+          <p class="subtitle">CSE (AI &amp; ML) Student | Problem Solver | Tech Enthusiast</p>
+
+          <div class="what-i-do">
+            <h2>What I Do</h2>
+            <ul>
+              <li><i class="fa-solid fa-brain"></i> Build ML models for real-world problems</li>
+              <li><i class="fa-solid fa-chart-line"></i> Create dashboards using Power BI</li>
+              <li><i class="fa-solid fa-gears"></i> Develop Python automation tools</li>
+              <li><i class="fa-solid fa-film"></i> Design technical animations using Manim</li>
+            </ul>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact" id="contactScrollBtn">Contact Me</a>
+            <a class="btn btn-secondary" href="#projects" id="projectsScrollBtn">View Profile</a>
+          </div>
+        </div>
+
+        <div class="glass card hero-image-card reveal-delay">
+          <img src="C:\Users\3344s\OneDrive\Documents\New project\images\profile image .jpeg" alt="Siddharth Kumbhar profile" />
+          <div class="status-pill">
+            <span class="dot"></span>
+            Open to Internships and Collaborative Projects
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="about">
+        <div class="section-head">
+          <h2>The Journey</h2>
+        </div>
+        <article class="glass card body-card journey-card">
+          <div class="journey-icon" aria-hidden="true">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <ul class="journey-points">
+            <li>
+              Focused on building practical systems in <span class="journey-highlight">AI &amp; ML</span> that solve
+              meaningful user and business challenges.
+            </li>
+            <li>
+              I bring strong <span class="journey-highlight">problem solving</span> with analytical thinking and
+              implementation discipline.
+            </li>
+            <li>
+              I aim to deliver measurable, user-first, <span class="journey-highlight">impactful solutions</span>.
+            </li>
+          </ul>
+
+          <div class="drives-block">
+            <h3>What Drives Me</h3>
+            <div class="drives-list">
+              <span><i class="fa-solid fa-lightbulb"></i> Curiosity for AI</span>
+              <span><i class="fa-solid fa-screwdriver-wrench"></i> Building real-world solutions</span>
+              <span><i class="fa-solid fa-book-open-reader"></i> Continuous learning</span>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section reveal" id="education">
+        <div class="section-head">
+          <h2>Education</h2>
+        </div>
+
+        <article class="glass card body-card education-card">
+          <div class="education-meta">
+            <h3>MIT Academy of Engineering</h3>
+            <p>B.Tech CSE (AI &amp; ML) | First Year</p>
+            <span class="education-pill">MHT-CET 95.20 Percentile</span>
+          </div>
+
+          <div class="education-actions">
+            <button class="btn btn-small" id="viewDashboardBtn" type="button">View Dashboard</button>
+            <button class="btn btn-small btn-outline-compact" id="trackProgressBtn" type="button">Track Progress</button>
+          </div>
+        </article>
+      </section>
+
+      <section class="section reveal" id="skills">
+        <div class="section-head">
+          <h2>Skills Dashboard</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="glass card skill-item">
+            <div class="skill-header">
+              <h3><i class="fa-brands fa-python"></i> Python</h3>
+              <span>80%</span>
+            </div>
+            <div class="skill-visual-row">
+              <div class="skill-ring" data-progress="80"><span>80%</span></div>
+            </div>
+            <div class="progress-track"><div class="progress-fill" data-progress="80"></div></div>
+            <div class="skill-actions">
+              <button class="btn btn-small skill-detail-btn" type="button" data-skill="Python">View Details</button>
+              <button class="btn btn-small btn-ghost skill-project-btn" type="button" data-skill="Python">Projects Using This</button>
+            </div>
+          </article>
+
+          <article class="glass card skill-item">
+            <div class="skill-header">
+              <h3><i class="fa-solid fa-chart-simple"></i> Power BI</h3>
+              <span>75%</span>
+            </div>
+            <div class="skill-visual-row">
+              <div class="skill-ring" data-progress="75"><span>75%</span></div>
+            </div>
+            <div class="progress-track"><div class="progress-fill" data-progress="75"></div></div>
+            <div class="skill-actions">
+              <button class="btn btn-small skill-detail-btn" type="button" data-skill="Power BI">View Details</button>
+              <button class="btn btn-small btn-ghost skill-project-btn" type="button" data-skill="Power BI">Projects Using This</button>
+            </div>
+          </article>
+
+          <article class="glass card skill-item">
+            <div class="skill-header">
+              <h3><i class="fa-solid fa-robot"></i> Machine Learning</h3>
+              <span>65%</span>
+            </div>
+            <div class="skill-visual-row">
+              <div class="skill-ring" data-progress="65"><span>65%</span></div>
+            </div>
+            <div class="progress-track"><div class="progress-fill" data-progress="65"></div></div>
+            <div class="skill-actions">
+              <button class="btn btn-small skill-detail-btn" type="button" data-skill="Machine Learning">View Details</button>
+              <button class="btn btn-small btn-ghost skill-project-btn" type="button" data-skill="Machine Learning">Projects Using This</button>
+            </div>
+          </article>
+
+          <article class="glass card skill-item">
+            <div class="skill-header">
+              <h3><i class="fa-solid fa-cube"></i> Manim</h3>
+              <span>70%</span>
+            </div>
+            <div class="skill-visual-row">
+              <div class="skill-ring" data-progress="70"><span>70%</span></div>
+            </div>
+            <div class="progress-track"><div class="progress-fill" data-progress="70"></div></div>
+            <div class="skill-actions">
+              <button class="btn btn-small skill-detail-btn" type="button" data-skill="Manim">View Details</button>
+              <button class="btn btn-small btn-ghost skill-project-btn" type="button" data-skill="Manim">Projects Using This</button>
+            </div>
+          </article>
+        </div>
+
+        <article class="glass card skills-mini-dashboard">
+          <div class="section-head compact-head">
+            <h3>Top Skill Snapshot</h3>
+          </div>
+          <div class="mini-skill-list">
+            <div class="mini-skill-row">
+              <span>Python</span>
+              <div class="mini-skill-track"><div class="mini-skill-fill" data-progress="80"></div></div>
+              <strong>80%</strong>
+            </div>
+            <div class="mini-skill-row">
+              <span>Power BI</span>
+              <div class="mini-skill-track"><div class="mini-skill-fill" data-progress="75"></div></div>
+              <strong>75%</strong>
+            </div>
+            <div class="mini-skill-row">
+              <span>Machine Learning</span>
+              <div class="mini-skill-track"><div class="mini-skill-fill" data-progress="65"></div></div>
+              <strong>65%</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="glass card skills-learning-mini">
+          <h3>Currently Learning</h3>
+          <div class="learning-badges">
+            <span><i class="fa-solid fa-network-wired"></i> Deep Learning</span>
+            <span><i class="fa-solid fa-code-branch"></i> DSA</span>
+            <span><i class="fa-solid fa-layer-group"></i> Full Stack</span>
+          </div>
+        </article>
+      </section>
+
+      <section class="section reveal" id="projects">
+        <div class="section-head">
+          <h2>Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="glass card project-card" data-project-skills="Python NLP Machine Learning">
+            <div class="project-thumb-wrap">
+              <img src="C:\Users\3344s\OneDrive\Documents\New project\images\image 1.jpeg" alt="Neural Sentiment Engine" class="project-thumb" />
+            </div>
+            <div class="project-content">
+              <h3>Neural Sentiment Engine</h3>
+              <p>Sentiment prediction pipeline for text classification with visual analytics and error inspection.</p>
+              <div class="badge-row">
+                <span>Python</span><span>NLP</span><span>ML</span><span>Pandas</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="glass card project-card" data-project-skills="Python Manim Visualization">
+            <div class="project-thumb-wrap">
+              <img src="C:\Users\3344s\OneDrive\Documents\New project\images\image 2.jpeg" alt="Manim Animation Suite" class="project-thumb" />
+            </div>
+            <div class="project-content">
+              <h3>Manim Animation Suite</h3>
+              <p>Technical animation package to explain math and computing concepts in a visually engaging way.</p>
+              <div class="badge-row">
+                <span>Python</span><span>Manim</span><span>Visualization</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="glass card project-card" data-project-skills="Power BI Data Analysis Excel">
+            <div class="project-thumb-wrap">
+              <img src="C:\Users\3344s\OneDrive\Documents\New project\images\iamge 3.png" alt="Power BI Insight Hub" class="project-thumb" />
+            </div>
+            <div class="project-content">
+              <h3>Power BI Insight Hub</h3>
+              <p>Interactive dashboard for KPI tracking and decision-friendly business reporting.</p>
+              <div class="badge-row">
+                <span>Power BI</span><span>Excel</span><span>Data Viz</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="learning">
+        <div class="section-head">
+          <h2>Current Learning</h2>
+        </div>
+
+        <div class="triple-grid">
+          <article class="glass card small-card">
+            <h3><i class="fa-solid fa-network-wired"></i> Deep Learning</h3>
+            <p>Studying neural networks, CNN foundations, and model optimization workflows.</p>
+          </article>
+          <article class="glass card small-card">
+            <h3><i class="fa-solid fa-code-branch"></i> DSA</h3>
+            <p>Practicing problem-solving patterns, complexity analysis, and contest-style questions.</p>
+          </article>
+          <article class="glass card small-card">
+            <h3><i class="fa-solid fa-layer-group"></i> Full Stack Development</h3>
+            <p>Building modern web apps with clean frontend architecture and backend basics.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="profiles">
+        <div class="section-head">
+          <h2>Coding Profiles</h2>
+        </div>
+
+        <div class="dual-grid">
+          <article class="glass card profile-card">
+            <h3><i class="fa-solid fa-terminal"></i> LeetCode</h3>
+            <p>150+ problems solved with focus on arrays, strings, and dynamic programming.</p>
+          </article>
+
+          <article class="glass card profile-card">
+            <h3><i class="fa-solid fa-bolt"></i> CodeChef</h3>
+            <p>Active competitive coding practice and rating growth through regular contests.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="why-hire-me">
+        <div class="section-head">
+          <h2>Why Hire Me</h2>
+        </div>
+
+        <article class="glass card body-card">
+          <p>
+            I combine a strong problem-solving mindset with a practical engineering approach. I focus on building
+            solutions that work in real-world scenarios, communicate insights clearly, and improve continuously through
+            learning and feedback. I am consistent, adaptable, and committed to delivering measurable results.
+          </p>
+        </article>
+      </section>
+
+      <section class="section reveal" id="validation">
+        <div class="section-head">
+          <h2>Professional Validation</h2>
+        </div>
+
+        <div class="validation-grid">
+          <article class="glass card showcase-card" data-entry-id="google-cloud">
+            <h3><i class="fa-solid fa-cloud"></i> Google Cloud</h3>
+            <p class="showcase-meta">Issuer: Google Cloud</p>
+            <div class="showcase-actions">
+              <button class="btn btn-small item-view-cert" type="button" data-entry-id="google-cloud">View Certificate</button>
+              <button class="btn btn-small btn-ghost item-view-details" type="button">View Details</button>
+            </div>
+            <p class="item-description">
+              Validates cloud fundamentals, trust, and secure platform-level understanding for modern AI workflows.
+            </p>
+          </article>
+
+          <article class="glass card showcase-card" data-entry-id="anthropic-fluency">
+            <h3><i class="fa-solid fa-robot"></i> Anthropic AI Fluency Courses</h3>
+            <p class="showcase-meta">Issuer: Anthropic</p>
+            <div class="showcase-actions">
+              <button class="btn btn-small item-view-cert" type="button" data-entry-id="anthropic-fluency">View Certificate</button>
+              <button class="btn btn-small btn-ghost item-view-details" type="button">View Details</button>
+            </div>
+            <p class="item-description">
+              Covers practical AI adoption and safe application skills for real-world problem solving.
+            </p>
+          </article>
+
+          <article class="glass card showcase-card" data-entry-id="ibm-essentials">
+            <h3><i class="fa-solid fa-briefcase"></i> IBM Career Essentials</h3>
+            <p class="showcase-meta">Issuer: IBM</p>
+            <div class="showcase-actions">
+              <button class="btn btn-small item-view-cert" type="button" data-entry-id="ibm-essentials">View Certificate</button>
+              <button class="btn btn-small btn-ghost item-view-details" type="button">View Details</button>
+            </div>
+            <p class="item-description">
+              Strengthens professional readiness, communication, and industry-oriented execution standards.
+            </p>
+          </article>
+
+          <article class="glass card showcase-card" data-entry-id="cisco-python-essentials">
+            <h3><i class="fa-solid fa-network-wired"></i> Cisco Python Essentials</h3>
+            <p class="showcase-meta">Issuer: Cisco</p>
+            <div class="showcase-actions">
+              <button class="btn btn-small item-view-cert" type="button" data-entry-id="cisco-python-essentials">View Certificate</button>
+              <button class="btn btn-small btn-ghost item-view-details" type="button">View Details</button>
+            </div>
+            <p class="item-description">
+              Includes two certificates with Python foundations and deeper programming proficiency coverage.
+            </p>
+          </article>
+
+          <article class="glass card showcase-card" data-entry-id="codeacademy-javascript">
+            <h3><i class="fa-brands fa-js"></i> Code Academy JavaScript</h3>
+            <p class="showcase-meta">Issuer: Code Academy</p>
+            <div class="showcase-actions">
+              <button class="btn btn-small item-view-cert" type="button" data-entry-id="codeacademy-javascript">View Certificate</button>
+              <button class="btn btn-small btn-ghost item-view-details" type="button">View Details</button>
+            </div>
+            <p class="item-description">
+              Demonstrates scripting competency and front-end logic fundamentals for modern web applications.
+            </p>
+          </article>
+
+        </div>
+      </section>
+
+      <section class="section reveal" id="hackathons">
+        <div class="section-head">
+          <h2>Hackathons</h2>
+        </div>
+
+        <div class="validation-grid">
+          <article class="glass card showcase-card" data-entry-id="techsprint-2026">
+            <h3><i class="fa-solid fa-trophy"></i> TechSprint 2026</h3>
+            <p class="showcase-meta">Category: Innovation Sprint</p>
+            <div class="showcase-actions">
+              <button class="btn btn-small item-view-cert" type="button" data-entry-id="techsprint-2026">View Certificate</button>
+              <button class="btn btn-small btn-ghost item-view-details" type="button">View Details</button>
+            </div>
+            <p class="item-description">
+              Participated with a collaborative AI-first solution approach and strong execution under time constraints.
+            </p>
+          </article>
+
+          <article class="glass card showcase-card" data-entry-id="datathon-2026">
+            <h3><i class="fa-solid fa-chart-column"></i> Datathon 2026</h3>
+            <p class="showcase-meta">Category: Data Intelligence</p>
+            <div class="showcase-actions">
+              <button class="btn btn-small item-view-cert" type="button" data-entry-id="datathon-2026">View Certificate</button>
+              <button class="btn btn-small btn-ghost item-view-details" type="button">View Details</button>
+            </div>
+            <p class="item-description">
+              Focused on analytics-driven problem solving and insightful data storytelling workflows.
+            </p>
+          </article>
+
+          <article class="glass card showcase-card" data-entry-id="national-math-day-2025">
+            <h3><i class="fa-solid fa-medal"></i> National Mathematics Day 2025</h3>
+            <p class="showcase-meta">MIT Academy of Engineering</p>
+            <div class="showcase-actions">
+              <button class="btn btn-small item-view-cert" type="button" data-entry-id="national-math-day-2025">View Certificate</button>
+              <button class="btn btn-small btn-ghost item-view-details" type="button">View Details</button>
+            </div>
+            <p class="item-description">
+              Team AlgoAnimators secured 1st Prize in the Mathematics &amp; Technology (Theme-wise) category during
+              National Mathematics Day 2025 at MIT Academy of Engineering.
+            </p>
+          </article>
+
+          <article class="glass card showcase-card" data-entry-id="gta-megajam">
+            <h3><i class="fa-solid fa-gamepad"></i> GTA MegaJam</h3>
+            <p class="showcase-meta">Unstop | NIT Rourkela</p>
+            <div class="showcase-actions">
+              <button class="btn btn-small item-view-cert" type="button" data-entry-id="gta-megajam">View Certificate</button>
+              <button class="btn btn-small btn-ghost item-view-details" type="button">View Details</button>
+            </div>
+            <p class="item-description">
+              Participated in GTA MegaJam organised by National Institute of Technology (NIT), Rourkela, via Unstop.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="achievements">
+        <div class="section-head">
+          <h2>Achievements</h2>
+        </div>
+
+        <div class="triple-grid">
+          <article class="glass card small-card">
+            <h3><i class="fa-solid fa-star"></i> Achievements</h3>
+            <p>Abacus district level first prize</p>
+            <p>Hackathon participation</p>
+          </article>
+
+          <article class="glass card small-card">
+            <h3><i class="fa-solid fa-futbol"></i> Extra Activities</h3>
+            <p>Sports (Cricket)</p>
+            <p>Rubik's cube solving</p>
+          </article>
+
+          <article class="glass card small-card">
+            <h3><i class="fa-solid fa-shield-heart"></i> Strengths</h3>
+            <p>Quick learner</p>
+            <p>Self-motivated</p>
+            <p>Problem-solving mindset</p>
+          </article>
+
+          <article class="glass card small-card highlight-card">
+            <span class="highlight-badge">Top Academic Metric</span>
+            <h3>MHT-CET: 95.20 Percentile</h3>
+            <p>Strong academic performance and analytical aptitude.</p>
+          </article>
+
+          <article class="glass card small-card">
+            <h3><i class="fa-solid fa-trophy"></i> Hackathons</h3>
+            <p>TechSprint 2026, Datathon 2026, and GTA MegaJam participation.</p>
+          </article>
+
+          <article class="glass card small-card">
+            <h3><i class="fa-solid fa-certificate"></i> Certifications</h3>
+            <p>Google Cloud, Anthropic AI Fluency, IBM Essentials, Cisco Python, Code Academy JS.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="contact">
+        <div class="section-head">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="contact-grid">
+          <a class="glass card contact-card" href="tel:+917820806524">
+            <i class="fa-solid fa-phone"></i>
+            <span>+91 7820806524</span>
+          </a>
+          <a class="glass card contact-card external-contact-link" href="mailto:siddharthkumbhar95@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span>siddharthkumbhar95@gmail.com</span>
+          </a>
+          <a class="glass card contact-card external-contact-link" href="https://www.linkedin.com/in/siddharth-kumbhar-453947378" target="_self" rel="noopener">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn Profile</span>
+          </a>
+          <a class="glass card contact-card external-contact-link" href="https://github.com/Siddharth9520" target="_self" rel="noopener">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub Profile</span>
+          </a>
+          <a class="glass card contact-card external-contact-link" href="https://www.kaggle.com/siddharthkumbhar20" target="_self" rel="noopener">
+            <i class="fa-brands fa-kaggle"></i>
+            <span>Kaggle Profile</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Siddharth Kumbhar | AI &amp; ML Portfolio</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/siddharth-kumbhar-453947378" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Siddharth9520" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.kaggle.com/siddharthkumbhar20" target="_blank" rel="noopener" aria-label="Kaggle"><i class="fa-brands fa-kaggle"></i></a>
+        <a href="mailto:siddharthkumbhar95@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </footer>
+
+    <div class="modal-shell" id="dashboardModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-dashboard="true"></div>
+      <div class="glass card modal-card" role="dialog" aria-modal="true" aria-labelledby="dashboardTitle">
+        <button class="modal-close-btn" id="closeDashboardModal" aria-label="Close dashboard">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <h3 id="dashboardTitle">Student Dashboard</h3>
+
+        <div class="dashboard-grid">
+          <article class="glass card dash-item dash-highlight">
+            <p class="dash-label">Academic Summary</p>
+            <h4>MHT-CET: 95.20 Percentile</h4>
+            <p>Strong academic readiness for advanced AI/ML coursework.</p>
+          </article>
+
+          <article class="glass card dash-item">
+            <p class="dash-label">Degree Completion</p>
+            <div class="degree-track">
+              <div class="degree-fill" id="degreeFill"></div>
+            </div>
+            <p class="dash-foot">Estimated progress: 25%</p>
+          </article>
+
+          <article class="glass card dash-item">
+            <p class="dash-label">Skills Snapshot</p>
+            <ul class="snapshot-list">
+              <li><span>AI/ML</span><strong>Advanced Beginner</strong></li>
+              <li><span>Python</span><strong>Intermediate</strong></li>
+              <li><span>Data Analysis</span><strong>Intermediate</strong></li>
+            </ul>
+          </article>
+
+          <article class="glass card dash-item">
+            <p class="dash-label">Performance Stats</p>
+            <div class="mini-chart" id="miniChart">
+              <div class="mini-bar" data-height="95"><span>Acad</span></div>
+              <div class="mini-bar" data-height="78"><span>Projects</span></div>
+              <div class="mini-bar" data-height="72"><span>Skills</span></div>
+              <div class="mini-bar" data-height="81"><span>Growth</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-shell" id="certificateModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-certificate="true"></div>
+      <div class="glass card modal-card certificate-card" role="dialog" aria-modal="true" aria-labelledby="certificateTitle">
+        <button class="modal-close-btn" id="closeCertificateModal" aria-label="Close certificate view">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <h3 id="certificateTitle">Academic Certificate</h3>
+        <img src="assets/certificate.jpg" alt="Certificate preview" class="certificate-preview" />
+        <a class="btn btn-small" href="assets/certificate.pdf" target="_blank" rel="noopener">Open PDF Version</a>
+      </div>
+    </div>
+
+    <div class="modal-shell" id="skillDetailModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-skill-detail="true"></div>
+      <div class="glass card modal-card skill-detail-card" role="dialog" aria-modal="true" aria-labelledby="skillDetailTitle">
+        <button class="modal-close-btn" id="closeSkillDetailModal" aria-label="Close skill detail">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <h3 id="skillDetailTitle">Skill Details</h3>
+        <p id="skillDetailDescription"></p>
+        <p><strong>Tools Used:</strong> <span id="skillDetailTools"></span></p>
+        <p><strong>Example Usage/Projects:</strong> <span id="skillDetailExamples"></span></p>
+      </div>
+    </div>
+
+    <div class="modal-shell" id="showcaseModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-showcase="true"></div>
+      <div class="glass card modal-card showcase-modal-card" role="dialog" aria-modal="true" aria-labelledby="showcaseTitle">
+        <button class="modal-close-btn" id="closeShowcaseModal" aria-label="Close showcase modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <h3 id="showcaseTitle">Certificate Showcase</h3>
+        <p class="showcase-issuer" id="showcaseIssuer"></p>
+        <p class="showcase-description" id="showcaseDescription"></p>
+
+        <div class="showcase-image-wrap">
+          <button class="showcase-nav-btn" id="showcasePrev" type="button" aria-label="Previous certificate">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <img src="assets/certificate.jpg" alt="Showcase preview" id="showcaseImage" class="showcase-image" />
+          <button class="showcase-nav-btn" id="showcaseNext" type="button" aria-label="Next certificate">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <div class="showcase-modal-actions">
+          <span class="showcase-counter" id="showcaseCounter">1 / 1</span>
+          <a class="btn btn-small" id="showcaseViewFull" href="assets/certificate.jpg" target="_blank" rel="noopener">View Full</a>
+          <button class="btn btn-small btn-ghost" id="showcaseCloseAction" type="button">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
