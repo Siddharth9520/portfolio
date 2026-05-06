@@ -275,7 +275,7 @@ const showcaseData = {
     title: "Google Cloud",
     issuer: "Google Cloud",
     description: "Cloud fundamentals certificate validating security, platform navigation, and deployment awareness.",
-    images: ["assets/certs/google-cloud.png"],
+   images: ["assets/certs/google cloud.png"],
   },
   "anthropic-fluency": {
     title: "Anthropic AI Fluency Courses",
