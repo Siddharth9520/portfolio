@@ -1,4 +1,4 @@
-﻿const sections = document.querySelectorAll("main section[id]");
+const sections = document.querySelectorAll("main section[id]");
 const navLinks = document.querySelectorAll(".nav-link");
 const revealItems = document.querySelectorAll(".reveal");
 const progressBars = document.querySelectorAll(".progress-fill");
@@ -275,62 +275,62 @@ const showcaseData = {
     title: "Google Cloud",
     issuer: "Google Cloud",
     description: "Cloud fundamentals certificate validating security, platform navigation, and deployment awareness.",
-    images: ["assets/certs/google-cloud"],
+    images: ["assets/certs/google-cloud.png"],
   },
   "anthropic-fluency": {
     title: "Anthropic AI Fluency Courses",
     issuer: "Anthropic",
     description: "Practical AI fluency certification focused on safe, useful, and reliable AI usage.",
     images: [
-      "assets/certs/anthropic-ai-1",
-      "assets/certs/anthropic-ai-2",
-      "assets/certs/anthropic-ai-3",
-      "assets/certs/anthropic-ai-4",
+      "assets/certs/ai-fluency.png",
+      "assets/certs/ai-fluency-2.png",
+      "assets/certs/ai-fluency-3.png",
+      "assets/certs/ai-fluency-4.png",
     ],
   },
   "ibm-essentials": {
     title: "IBM Career Essentials",
     issuer: "IBM",
     description: "Career readiness credential covering professional communication and execution discipline.",
-    images: ["assets/certs/ibm-essentials"],
+    images: ["assets/certs/ibm-management.png"],
   },
   "cisco-python-essentials": {
     title: "Cisco Python Essentials",
     issuer: "Cisco",
     description: "Dual certification path for Python Essentials 1 and Python Essentials 2.",
-    images: ["assets/certs/cisco-python-1", "assets/certs/cisco-python-2"],
+    images: ["assets/certs/python-essentials-1.png", "assets/certs/python-essentials-2.png"],
   },
   "codeacademy-javascript": {
     title: "Code Academy JavaScript",
     issuer: "Code Academy",
     description: "JavaScript fundamentals certification demonstrating scripting and interactive UI logic.",
-    images: ["assets/certs/codeacademy-js"],
+    images: ["assets/certs/javascript.png"],
   },
   "techsprint-2026": {
     title: "TechSprint 2026",
     issuer: "Hackathon",
     description: "Hackathon participation with a fast AI-first prototype and collaborative execution.",
-    images: ["assets/hackathons/techsprint-2026"],
+    images: ["assets/hackathons/techsprint.png"],
   },
   "datathon-2026": {
     title: "Datathon 2026",
     issuer: "Hackathon",
     description: "Built data-driven insights and analytical models under competitive constraints.",
-    images: ["assets/hackathons/datathon-2026"],
+    images: ["assets/hackathons/dataton.png"],
   },
   "national-math-day-2025": {
     title: "National Mathematics Day 2025",
     issuer: "MIT Academy of Engineering",
     description:
       "Team AlgoAnimators secured 1st Prize in the Mathematics & Technology (Theme-wise) category during National Mathematics Day 2025 at MIT Academy of Engineering.",
-    images: ["assets/hackathons/nmd-2025-award"],
+    images: ["assets/hackathons/National Mathematics Day 2025.png"],
   },
   "gta-megajam": {
     title: "GTA MegaJam",
     issuer: "Unstop | NIT Rourkela",
     description:
       "This certificate confirms participation in GTA MegaJam of GTA Megajam organised by National Institute of Technology (NIT), Rourkela.",
-    images: ["assets/hackathons/gta-megajam-certificate"],
+    images: ["assets/hackathons/GTA megajam.png"],
   },
 };
 
